@@ -1,11 +1,150 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Supp Dude</title>
+    <meta charset="utf-8">
+    <title>Coursera Module - 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<style type="text/css">
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: white;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        margin-bottom: 15px;
+        text-align: center;
+        color: black;
+        font-size: 50px;
+    }
+
+    section {
+        position: relative;
+        padding: 15px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        position: relative;
+        clear: right;
+    }
+
+    div {
+        position: relative;
+        background-color: white;
+        border: 2px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .sub-title {
+        width: 30%;
+        padding: 5px;
+        margin: -3px -3px 0px;
+        border: 1px solid black;
+        text-align: center;
+        float: right;
+        font-size: 125%;
+        font-weight: bold;
+        background-color: lightblue;
+    }
+
+    .content {
+        padding: 5px;
+        border: none;
+        background-color: white;
+        color: black;
+        margin: 3px;
+        height: 150px;
+        overflow: auto;
+    }
+
+    /*desktop version*/
+    @media (min-width: 992px) {
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+    }
+
+    /*tablet version*/
+    @media (min-width: 768px) and (max-width: 991px) {
+        .colmn-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+         .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    /*mobile version*/
+    @media screen and (max-width: 767px) {
+        .column-lg-4
+         {
+            width: 100%;
+            float: left;
+        }
+        .colmn-md-6
+        {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+</style>
+
 <body>
-<h1>Wassup. Broo</h1>
+    <h1>Car Driving</h1>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div>
+            <p class="sub-title">Clutch</p>
+            <p class="content">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            </p>
+        </div>
+    </section>
+    <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+        <div>
+            <p class="sub-title">Brake</p>
+            <p class="content">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            </p>
+        </div>
+    </section>
+    <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+        <div>
+            <p class="sub-title">Accelator</p>
+            <p class="content">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            </p>
+        </div>
+    </section>
 </body>
+
 </html>
